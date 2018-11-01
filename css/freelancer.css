@@ -18,8 +18,8 @@ h6 {
   font-family: 'Montserrat';
 }
 
-hr.star-light,
-hr.star-dark {
+hr.pad-light,
+hr.pad-dark {
   max-width: 15rem;
   padding: 0;
   text-align: center;
@@ -31,35 +31,35 @@ hr.star-dark {
   margin-right: auto;
 }
 
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 2em;
+    hr.pad-light:after,
+    hr.pad-dark:after {
+        position: relative;
+        top: -.8em;
+        display: inline-block;
+        padding: 0 0.25em;
+        content: '\f11b';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 2em;
+    }
+
+hr.pad-light {
+    border-color: #fff;
 }
 
-hr.star-light {
-  border-color: #fff;
+    hr.pad-light:after {
+        color: #fff;
+        background-color: #18BC9C;
+    }
+
+hr.pad-dark {
+    border-color: #2C3E50;
 }
 
-hr.star-light:after {
-  color: #fff;
-  background-color: #18BC9C;
-}
-
-hr.star-dark {
-  border-color: #2C3E50;
-}
-
-hr.star-dark:after {
-  color: #2C3E50;
-  background-color: white;
-}
+    hr.pad-dark:after {
+        color: #2C3E50;
+        background-color: white;
+    }
 
 section {
   padding: 6rem 0;
